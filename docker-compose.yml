@@ -1,0 +1,26 @@
+version: '3.8'  # Specifies the version of Docker Compose
+
+services:
+  web:
+    build: .  # Build the Django web service from the current directory (context)
+    ports:
+      - "8090:8000"  # Map port 8000 inside the container to port 8090 on the host
+    environment:
+      - DEBUG=True  # Set the DEBUG environment variable to True (for development mode)
+    volumes:
+      - .:/app  # Mount the current directory (.) to /app inside the container (enables live code changes)
+    depends_on:
+      - db  # Ensure the database service is started before the web service
+
+  db:
+    image: postgres:13  # Use the PostgreSQL 13 image from Docker Hub
+    environment:
+      - POSTGRES_DB=ticket_booking  # Set the database name to 'ticket_booking'
+      - POSTGRES_USER=admin  # Set the PostgreSQL username to 'admin'
+      - POSTGRES_PASSWORD=prabhat123  # Set the password for the 'admin' user
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Store the database data in a named volume to persist data
+
+# Named volume to store the database data
+volumes:
+  postgres_data:
