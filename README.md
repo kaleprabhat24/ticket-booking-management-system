@@ -1,6 +1,3 @@
-
----
-
 # 🎟️ **Ticket Booking Management System**
 
 An interactive, fully containerized **Django web application** to manage ticket bookings for events and shows. From browsing events to real-time seat selection and a custom admin dashboard — this project is built with a focus on **usability, scalability, and clean code practices**.
