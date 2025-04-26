@@ -11,6 +11,7 @@ An interactive, fully containerized **Django web application** to manage ticket 
 - **Roll No:** 44
 
 ---
+## **Gif**
 ![VID_20250426_192303_601 (1) (1)](https://github.com/user-attachments/assets/6b1918a8-7978-4b9b-97d1-551382e42ac7)
 
 ## 🌟 **Why This Project?**
@@ -80,10 +81,6 @@ Most ticket booking systems rely heavily on Django’s default features. But not
 
 ---
 
-## 🖼️ **Screenshots**
-
----
-
 ## ▶️ **Setup Instructions**
 
 ```bash
@@ -95,7 +92,7 @@ cd booking-ticket-app
 docker-compose up --build
 
 # 3. Access the Web App
-http://localhost:8090/
+http://localhost:8000/
 ```
 
 ---
