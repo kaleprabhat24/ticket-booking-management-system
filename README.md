@@ -11,6 +11,7 @@ An interactive, fully containerized **Django web application** to manage ticket 
 - **Roll No:** 44
 
 ---
+![VID_20250426_192303_601 (1) (1)](https://github.com/user-attachments/assets/6b1918a8-7978-4b9b-97d1-551382e42ac7)
 
 ## 🌟 **Why This Project?**
 
@@ -80,23 +81,6 @@ Most ticket booking systems rely heavily on Django’s default features. But not
 ---
 
 ## 🖼️ **Screenshots**
-
-🖼️ Screenshots
-![Screenshot 2025-04-25 222152](https://github.com/user-attachments/assets/e1c3f0e8-195b-474c-842d-7bc279a110df)
-
-![Screenshot 2025-04-25 222220](https://github.com/user-attachments/assets/dfaba58e-4acd-4bbb-a198-b88328a096ee)
-
-![Screenshot 2025-04-25 222239](https://github.com/user-attachments/assets/7a637e4f-3f24-495d-b7b7-0bf0346c1f15)
-
-![Screenshot 2025-04-25 222250](https://github.com/user-attachments/assets/d20a9460-78ed-475d-bf63-c0cd3606cfa7)
-
-![Screenshot 2025-04-25 222354](https://github.com/user-attachments/assets/d9dbbfc8-1ee2-4fe1-b7b2-8ec454c08cb2)
-
-| | |
-|:--:|:--:|
-| ![Booking History](https://github.com/user-attachments/assets/e1c3f0e8-195b-474c-842d-7bc279a110df) | ![Admin Dashboard](https://github.com/user-attachments/assets/dfaba58e-4acd-4bbb-a198-b88328a096ee) |
-| ![Seat Selection](https://github.com/user-attachments/assets/7a637e4f-3f24-495d-b7b7-0bf0346c1f15) | ![Events List](https://github.com/user-attachments/assets/d20a9460-78ed-475d-bf63-c0cd3606cfa7) |
-| ![Home Page](https://github.com/user-attachments/assets/d9dbbfc8-1ee2-4fe1-b7b2-8ec454c08cb2) | |
 
 ---
 
